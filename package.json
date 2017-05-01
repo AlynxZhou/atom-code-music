@@ -1,20 +1,19 @@
 {
-	"name": "atom-midi-piano",
-	"main": "index",
-	"version": "0.1.0",
-	"description": "Play music notes like a piano while typing in Atom.",
-	"keywords": [
-		"Music",
-		"Piano"
-	],
-	"activationCommands": {
-		"atom-workspace": "atom-midi-piano:toggle"
-	},
-	"repository": "https://github.com/AlynxZhou/atom-midi-piano",
-	"license": "MIT",
-	"engines": {
-		"atom": ">=1.0.0 <2.0.0"
-	},
-	"dependencies": {
-	}
+  "name": "atom-midi-piano",
+  "main": "index",
+  "version": "0.1.1",
+  "description": "Play music notes like a piano while typing in Atom.",
+  "keywords": [
+    "Music",
+    "Piano"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-midi-piano:toggle"
+  },
+  "repository": "https://github.com/AlynxZhou/atom-midi-piano",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
 }
