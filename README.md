@@ -16,7 +16,7 @@ If you can write music sheets in digit-sheets, you can use the `atom-midi-piano:
 
 First write correct digit-sheets with following mode:
 
-\(low-music-key\)    middle-music-key    \[high-music-key\]    {double-higher-music-key}    <chord-note1 chord-note2>
+\(low-music-key\)    middle-music-key    \[high-music-key\]    {double-higher-music-key}    \<chord-note1 chord-note2\>
 
 **Warning:**
 
