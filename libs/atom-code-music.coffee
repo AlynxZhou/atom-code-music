@@ -3,7 +3,7 @@ Base64Binary = require("./base64binary")
 Piano = require("./acoustic_grand_piano-ogg")
 Converter = require("./converter")
 
-class AtomMidiPiano
+class AtomCodeMusic
 	constructor: ->
 		@i = 0
 		@j = 0
@@ -24,24 +24,24 @@ class AtomMidiPiano
 
 	activate: ->
 		@subscriptions.add(atom.commands.add("atom-workspace",
-			"atom-midi-piano:toggle":  @toggle))
+			"atom-code-music:toggle":  @toggle))
 		@subscriptions.add(atom.commands.add("atom-text-editor",
-			"atom-midi-piano:convert": @convert))
-		@updateMode()
-		@subscriptions.add(atom.config.onDidChange("atom-midi-piano.workMode", @updateMode))
+			"atom-code-music:convert": @convert))
+		@changeMode()
+		@subscriptions.add(atom.config.onDidChange("atom-code-music.workMode", @changeMode))
 
 	deactivate: ->
 		@subscriptions.dispose()
 
-	updateMode: =>
-		@workMode = atom.config.get("atom-midi-piano.workMode")
+	changeMode: =>
+		@workMode = atom.config.get("atom-code-music.workMode")
 		switch (@workMode)
 			when "Real Piano Mode"
 				@keysToNotes = require("./keys-notes")
 			when "Music Box Mode"
 				@sheetsList = require("./sheets-list")
 				@sheet = require("#{@sheetsList[@i]}")
-		console.log("Atom-MIDI-Piano: Changed mode into #{@workMode}!")
+		console.log("atom-code-music: Changed mode into #{@workMode}!")
 
 	noteOn: (event) =>
 		# console.log(event.code)
@@ -85,13 +85,13 @@ class AtomMidiPiano
 			.addEventListener("keydown", @noteOn)
 			atom.views.getView(atom.workspace)
 			.addEventListener("keyup", @noteOff)
-			console.log("Atom-MIDI-Piano: Started in #{@workMode}!")
+			console.log("atom-code-music: Started in #{@workMode}!")
 		else
 			atom.views.getView(atom.workspace)
 			.removeEventListener("keydown", @noteOn)
 			atom.views.getView(atom.workspace)
 			.removeEventListener("keyup", @noteOff)
-			console.log("Atom-MIDI-Piano: Stopped!")
+			console.log("atom-code-music: Stopped!")
 
 	convert: =>
 		i = 0
@@ -108,4 +108,4 @@ class AtomMidiPiano
 		)
 
 
-module.exports = AtomMidiPiano
+module.exports = AtomCodeMusic

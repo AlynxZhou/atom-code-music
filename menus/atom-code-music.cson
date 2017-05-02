@@ -3,15 +3,15 @@
 	{
 		"label": "Packages"
 		"submenu": [
-			"label": "Atom MIDI Piano"
+			"label": "Atom Code Music"
 			"submenu": [
 				{
 					"label": "Toggle"
-					"command": "atom-midi-piano:toggle"
+					"command": "atom-code-music:toggle"
 				},
 				{
 					"label": "Convert"
-					"command": "atom-midi-piano:convert"
+					"command": "atom-code-music:convert"
 				}
 			]
 		]
