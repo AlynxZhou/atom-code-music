@@ -8,6 +8,10 @@
 				{
 					"label": "Toggle"
 					"command": "atom-midi-piano:toggle"
+				},
+				{
+					"label": "Convert"
+					"command": "atom-midi-piano:convert"
 				}
 			]
 		]

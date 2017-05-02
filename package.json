@@ -8,7 +8,8 @@
     "Piano"
   ],
   "activationCommands": {
-    "atom-workspace": "atom-midi-piano:toggle"
+    "atom-workspace": "atom-midi-piano:toggle",
+    "atom-text-editor": "atom-midi-piano:convert"
   },
   "repository": "https://github.com/AlynxZhou/atom-midi-piano",
   "license": "MIT",
