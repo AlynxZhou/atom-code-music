@@ -1,7 +1,7 @@
 {
 	"name": "atom-code-music",
 	"main": "index",
-	"version": "1.1.1",
+	"version": "0.1.1",
 	"description": "Play music notes like a piano while typing in Atom.",
 	"keywords": [
 		"Music",
