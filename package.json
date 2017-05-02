@@ -2,7 +2,7 @@
 	"name": "atom-code-music",
 	"main": "index",
 	"version": "0.1.1",
-	"description": "Play music notes like a piano while typing in Atom.",
+	"description": "Play music notes like a piano while coding in Atom.",
 	"keywords": [
 		"Music",
 		"Piano"

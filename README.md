@@ -1,6 +1,6 @@
 # Atom Code Music
 
-Play music notes like a piano while typing in Atom.
+Play music notes like a piano while coding in Atom.
 
 `Ctrl` + `Alt` + `m` or use command `atom-code-music:toggle` to toggle.
 
