@@ -2,7 +2,7 @@
 
 Play music notes like a piano while typing in Atom.
 
-`Ctrl` + `Alt` + `p` or use command `atom-code-music:toggle` to toggle.
+`Ctrl` + `Alt` + `m` or use command `atom-code-music:toggle` to toggle.
 
 Default is Music Box Mode, you can also switch to Real Piano Mode in settings.
 
@@ -12,7 +12,7 @@ Keymap manual is under preparing...
 
 ### How to add custom music sheets.
 
-If you can write music sheets in digit-sheets, you can use the `atom-code-music:convert` command to convert it into coffeescript/javascript array music sheet, which is used to record built-in music sheets.
+If you can write music sheets in digit-sheets, you can use the `atom-code-music:convert` command or `Ctrl` + `Alt` + `m` `c` to convert it into coffeescript/javascript array music sheet, which is used to record built-in music sheets.
 
 First write correct digit-sheets with following mode:
 

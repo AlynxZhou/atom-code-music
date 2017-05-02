@@ -8,4 +8,7 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 "atom-workspace":
-	"ctrl-alt-p": "atom-code-music:toggle"
+	"ctrl-alt-m": "atom-code-music:toggle"
+
+"atom-text-editor":
+	"ctrl-alt-m c": "atom-code-music:convert"
