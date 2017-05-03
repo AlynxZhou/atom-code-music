@@ -2,6 +2,16 @@ AtomCodeMusic = require("./libs/atom-code-music")
 
 module.exports =
 	config:
+		timbre:
+			type: "string"
+			title: "Timbre"
+			description: "Timbre of the plugin when there is no timbre recorded in the sheet."
+			enum: [
+				{value: "piano", description: "Piano"},
+				{value: "marimba", description: "Marimba"},
+				{value: "random", description: "Choose a timbre for a music sheet randomly."}
+			]
+			default: "random"
 		workMode:
 			type: "string"
 			title: "Work Mode"
@@ -11,6 +21,11 @@ module.exports =
 				{value: "Music Box Mode", description: "Play built-in music sheets like a music box."}
 			]
 			default: "Music Box Mode"
+		customSheets:
+			type: "string"
+			title: "Custom Sheets"
+			description: "Add path for each of your custom sheets, split by `,`."
+			default: ''
 
 	atomCodeMusic: new AtomCodeMusic()
 

@@ -1,4 +1,4 @@
-DigitsNotes = require("./digits-notes")
+digitsNotes = require("./digits-notes")
 class Converter
 	constructor: ->
 		@validArr = [' ', '\r', '\n', '\t', '|',
@@ -6,6 +6,10 @@ class Converter
 			     '0', '1', '2', '3', '4', '5', '6', '7',
 			     '#1', '#2', '#3', '#4', '#5', '#6', '#7']
 		@errArrs = new Array()
+		@note =
+			"pitch": ""
+			"timbre": ""
+			"loudness": 1
 
 	keySplit: (line) ->
 		keyArr = new Array()
@@ -233,7 +237,7 @@ class Converter
 		parenArr = @parenSplit(keyArr)
 		parenErrArr = @parenCheck(lineNum, parenArr)
 		if keyErrArr.length or parenErrArr.length
-			final = new String()
+			final = ""
 			@errArrs = @errArrs.concat(keyErrArr)
 			@errArrs = @errArrs.concat(parenErrArr)
 			for arr in @errArrs
@@ -250,7 +254,12 @@ class Converter
 			for chord in @buildChord(@fixKey(@scoreRebuild(keyArr)))
 				final += '['
 				for digit in chord
-					final += "\"#{DigitsNotes[digit]}\", "
+					try
+						@note["pitch"] = digitsNotes[digit]
+					catch e
+						@note["pitch"] = ""
+					@note["loudness"] = 1 / chord.length
+					final += "{\"timbre\": \"#{@note["timbre"]}\", \"pitch\": \"#{@note["pitch"]}\", \"loudness\": #{@note["loudness"]}}, "
 				final += "], "
 			final += '\n'
 		return final

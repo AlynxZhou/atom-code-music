@@ -2,7 +2,7 @@
 
 Play music notes like a piano while coding in Atom.
 
-`Ctrl` + `Alt` + `m` or use command `atom-code-music:toggle` to toggle.
+`Ctrl` + `Alt` + `m` `t` or use command `atom-code-music:toggle` to toggle.
 
 Default is Music Box Mode, you can also switch to Real Piano Mode in settings.
 
@@ -16,7 +16,9 @@ If you can write music sheets in digit-sheets, you can use the `atom-code-music:
 
 First write correct digit-sheets with following mode:
 
-\(low-music-key\)    middle-music-key    \[high-music-key\]    {double-higher-music-key}    \<chord-note1 chord-note2\>
+`(low-music-key)` `middle-music-key` `[high-music-key]` `{double-higher-music-key}`
+
+`<chord-note1 chord-note2>`
 
 **Warning:**
 
@@ -26,8 +28,8 @@ First write correct digit-sheets with following mode:
 
 **Usage:**
 
-1. Open your digit-sheets, then use command `atom-code-music:convert`, it will open a untitled buffer and convert it into a coffeescript/javascript array music sheet.
+1. Open your digit-sheets, then use command `atom-code-music:convert` or press `Ctrl` + `Alt` + `m` `c`, it will open a untitled buffer and convert it into a coffeescript/javascript array music sheet.
 
-2. Save the array sheet with `.coffee` or `.js`. Add the saved file path into `lib/sheets-list.coffee` as a member of the array. Reload Atom.
+2. Save the array sheet with `.coffee` or `.js`. Add the saved file path into `Settings -> atom-code-music -> Custom Sheets`.
 
-**Choose custom music sheets in settings will be added in future.**
+**Choose music sheets in settings will be added in future.**

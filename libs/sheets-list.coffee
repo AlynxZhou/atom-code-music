@@ -1,5 +1,5 @@
 module.exports = [
 	"./sheets/only-my-railgun",
 	"./sheets/eva",
-	"./sheets/the-foot-of-mount-fuji",
+	"./sheets/the-foot-of-mount-fuji"
 ]

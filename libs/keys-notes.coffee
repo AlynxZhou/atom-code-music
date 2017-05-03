@@ -1,7 +1,7 @@
 KeysNotes =
 	"Backquote": "B2"
 	"Digit1": "C3"
-	"Digit3": "Db3"
+	"Digit2": "Db3"
 	"Digit3": "D3"
 	"Digit4": "Eb3"
 	"Digit5": "E3"
