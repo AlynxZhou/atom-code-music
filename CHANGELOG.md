@@ -14,7 +14,7 @@
 
 * Bug fix.
 
-## 1.3.0
+## 1.3.1
 
 * Added [new chord sheet](./libs/sheets/quiet-romance.coffee).
 
@@ -33,3 +33,7 @@
 	2. Cross-line `<` `>` causes package and Atom stuck.
 
 	3. Misbehavior of comparing `""` and `new String()`.
+
+## 1.3.2
+
+* Bug Fix: Wrong case of random.

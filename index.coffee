@@ -11,7 +11,7 @@ module.exports =
 				{value: "Marimba", description: "Marimba"},
 				{value: "Random", description: "Choose a timbre for a music sheet randomly."}
 			]
-			default: "random"
+			default: "Random"
 		workMode:
 			type: "string"
 			title: "Work Mode"
