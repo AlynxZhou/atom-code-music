@@ -5,7 +5,8 @@
   "description": "Play music notes like a piano while coding in Atom.",
   "keywords": [
     "Music",
-    "Piano"
+    "Piano",
+    "Marimba"
   ],
   "activationCommands": {
     "atom-workspace": "atom-code-music:toggle",

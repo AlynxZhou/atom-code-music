@@ -1,4 +1,4 @@
-DigitsNotes =
+digitsNotes =
 	"(1)": "C3"
 	"(#1)": "Db3"
 	"(2)": "D3"
@@ -48,4 +48,4 @@ DigitsNotes =
 	"{#6}": "Bb6"
 	"{7}": "B6"
 
-module.exports = DigitsNotes
+module.exports = digitsNotes

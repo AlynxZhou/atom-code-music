@@ -12,4 +12,24 @@
 
 * Added custom sheets option in Settings.
 
-* Bug fix. 
+* Bug fix.
+
+## 1.3.0
+
+* Added [new chord sheet](./libs/sheets/quiet-romance.coffee).
+
+* Added [Key Map picture](./keymap.png).
+
+* Added format for the digit-sheets.
+
+* Stabilized the format of coffeescript/javascript/cson/json array music sheets.
+
+* Updated English description.
+
+* Fix bugs:
+
+	1. Random sheets won't work in Music Box Mode.
+
+	2. Cross-line `<` `>` causes package and Atom stuck.
+
+	3. Misbehavior of comparing `""` and `new String()`.

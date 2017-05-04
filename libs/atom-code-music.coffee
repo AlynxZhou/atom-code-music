@@ -1,8 +1,8 @@
 {CompositeDisposable} = require("atom")
 base64Binary = require("./base64binary")
 timbres =
-	"piano": require("./timbres/acoustic_grand_piano-ogg")
-	"marimba": require("./timbres/marimba-ogg")
+	"Piano": require("./timbres/acoustic_grand_piano-ogg")
+	"Marimba": require("./timbres/marimba-ogg")
 Converter = require("./converter")
 sheetsList = require("./sheets-list")
 keysNotes = require("./keys-notes")
@@ -52,19 +52,17 @@ class AtomCodeMusic
 
 	changeMode: =>
 		@workMode = atom.config.get("atom-code-music.workMode")
-		console.log @workMode
 		if @workMode is "Music Box Mode"
 			while @sheet is ""
 				try
 					@sheet = require("#{sheetsList[Math.floor(Math.random() * sheetsList.length)]}")
 				catch e
 					@sheet = ""
-		console.log @sheet
 		console.log("atom-code-music: Set mode into #{@workMode}!")
 
 	changeTimbre: =>
 		@timbre = atom.config.get("atom-code-music.timbre")
-		if @timbre is "random"
+		if @timbre is "Random"
 			tempTimbres = (timbre for timbre of timbres)
 			@timbre = (timbre for timbre of timbres)[Math.floor(Math.random() * tempTimbres.length)]
 		console.log("atom-code-music: Set timbre into #{@timbre}!")
@@ -81,32 +79,33 @@ class AtomCodeMusic
 		switch (@workMode)
 			when "Music Box Mode"
 				if event.code not in ["ControlLeft", "ControlRight", "AltLeft", "AltRight", "ShiftLeft", "ShiftRight"]
-						if @i >= @sheet.length
-							while @sheet is ""
-								try
-									@sheet = require("#{sheetsList[Math.floor(Math.random() * sheetsList.length)]}")
-								catch e
-									@sheet = ""
-							@changeTimbre()
-							@i = 0
-						for note in @sheet[@i]
-							if note["timbre"] isnt ""
-								@timbre = note["timbre"]
-							if note["pitch"] of @notes[@timbre]
-								@gainNode.gain.value = note["loudness"]
-								source = @context.createBufferSource()
-								source.connect(@gainNode)
-								source.buffer = @notes[@timbre][note["pitch"]]
-								source.start(0)
-								@sources.push(@source)
-						@i++
+					if @i >= @sheet.length
+						@sheet = ""
+						while @sheet is ""
+							try
+								@sheet = require("#{sheetsList[Math.floor(Math.random() * sheetsList.length)]}")
+							catch e
+								@sheet = ""
+						@changeTimbre()
+						@i = 0
+					for note in @sheet[@i]
+						if note["timbre"] isnt ""
+							@timbre = note["timbre"]
+						if note["pitch"] of @notes[@timbre]
+							@gainNode.gain.value = note["loudness"]
+							source = @context.createBufferSource()
+							source.connect(@gainNode)
+							source.buffer = @notes[@timbre][note["pitch"]]
+							source.start(0)
+							@sources.push(source)
+					@i++
 			when "Real Piano Mode"
 				if event.code of keysNotes
-					@source = @context.createBufferSource()
-					@source.connect(@gainNode)
-					@source.buffer = @notes[@timbre][keysNotes[event.code]]
-					@source.start(0)
-					@sources.push(@source)
+					source = @context.createBufferSource()
+					source.connect(@gainNode)
+					source.buffer = @notes[@timbre][keysNotes[event.code]]
+					source.start(0)
+					@sources.push(source)
 
 	noteOff: (event) =>
 		switch (@workMode)
@@ -116,21 +115,17 @@ class AtomCodeMusic
 			when "Real Piano Mode"
 				for source in @sources
 					if event.code of keysNotes
-						@source?.stop(@context.currentTime + 0.5)
+						source?.stop(@context.currentTime + 0.5)
 
 	toggle: =>
 		@switch = not @switch
 		if @switch
-			atom.views.getView(atom.workspace)
-			.addEventListener("keydown", @noteOn)
-			atom.views.getView(atom.workspace)
-			.addEventListener("keyup", @noteOff)
+			atom.views.getView(atom.workspace).addEventListener("keydown", @noteOn)
+			atom.views.getView(atom.workspace).addEventListener("keyup", @noteOff)
 			console.log("atom-code-music: Started!")
 		else
-			atom.views.getView(atom.workspace)
-			.removeEventListener("keydown", @noteOn)
-			atom.views.getView(atom.workspace)
-			.removeEventListener("keyup", @noteOff)
+			atom.views.getView(atom.workspace).removeEventListener("keydown", @noteOn)
+			atom.views.getView(atom.workspace).removeEventListener("keyup", @noteOff)
 			console.log("atom-code-music: Stopped!")
 
 	convert: =>

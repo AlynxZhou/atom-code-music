@@ -7,9 +7,9 @@ module.exports =
 			title: "Timbre"
 			description: "Timbre of the plugin when there is no timbre recorded in the sheet."
 			enum: [
-				{value: "piano", description: "Piano"},
-				{value: "marimba", description: "Marimba"},
-				{value: "random", description: "Choose a timbre for a music sheet randomly."}
+				{value: "Piano", description: "Piano"},
+				{value: "Marimba", description: "Marimba"},
+				{value: "Random", description: "Choose a timbre for a music sheet randomly."}
 			]
 			default: "random"
 		workMode:

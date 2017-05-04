@@ -1,4 +1,4 @@
-KeysNotes =
+keysNotes =
 	"Backquote": "B2"
 	"Digit1": "C3"
 	"Digit2": "Db3"
@@ -56,4 +56,4 @@ KeysNotes =
 	"Space": "C7"
 	"ControlRight": "D7"
 
-module.exports = KeysNotes
+module.exports = keysNotes

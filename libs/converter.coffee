@@ -62,6 +62,7 @@ class Converter
 						keyArr.unshift('(')
 						i = -1
 						tempArr = []
+						parenArr = []
 				when ']'
 					if parenArr.length
 						tempArr.push(keyArr[i])
@@ -69,6 +70,7 @@ class Converter
 						keyArr.unshift('[')
 						i = -1
 						tempArr = []
+						parenArr = []
 				when '}'
 					if parenArr.length
 						tempArr.push(keyArr[i])
@@ -76,6 +78,7 @@ class Converter
 						keyArr.unshift('{')
 						i = -1
 						tempArr = []
+						parenArr = []
 				when '('
 					if tempArr.length
 						parenArr.push(tempArr)
@@ -162,7 +165,7 @@ class Converter
 	scoreRebuild: (keyArr) ->
 		i = 0
 		rebuildArr = new Array()
-		rawArr = [' ', '\n', '\t', '<', '>']
+		rawArr = [' ', '\r', '\n', '\t', '<', '>']
 		while i < keyArr.length
 			switch keyArr[i]
 				when '('
@@ -214,16 +217,20 @@ class Converter
 		i = 0
 		while i < fixedArr.length
 			switch fixedArr[i]
+				when '>'
+					fixedArr.unshift('<')
+					i = -1
+					tempArr = []
+					finalArr = []
 				when '<'
 					i++
-					while fixedArr[i] isnt '>'
-						if fixedArr[i] not in [' ', '\n', '\t']
-							chordArr.push(fixedArr[i])
-						else
+					while (fixedArr[i] isnt '>') and (i < fixedArr.length)
+						if fixedArr[i] not in [' ', '\r', '\n', '\t']
 							chordArr.push(fixedArr[i])
 						i++
 				else
-					chordArr.push(fixedArr[i])
+					if fixedArr[i] not in [' ', '\r', '\n', '\t']
+						chordArr.push(fixedArr[i])
 			if chordArr.length
 				finalArr.push(chordArr)
 				chordArr = []
