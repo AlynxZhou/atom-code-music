@@ -49,4 +49,4 @@ For example:
 
 1. Open your digit-sheets, then use command `atom-code-music:convert` or press `Ctrl` + `Alt` + `m` `c`, it will open a untitled buffer and convert it into a coffeescript/javascript array music sheet.
 
-2. Save the array sheet with `.coffee` or `.js`. Add the saved file path into `Settings -> atom-code-music -> Custom Sheets`.
+2. Save the array sheet with `.coffee` or `.js`. Add the saved file path into `Settings -> Packages -> atom-code-music -> Custom Sheets`.
