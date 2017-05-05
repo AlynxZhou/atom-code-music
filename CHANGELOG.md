@@ -37,3 +37,7 @@
 ## 1.3.2
 
 * Bug Fix: Wrong case of random.
+
+## 1.3.3
+
+* Updated English of digit-sheets in README.md.
