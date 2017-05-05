@@ -20,9 +20,17 @@ If you can write music sheets in digit-sheets (For examples see [this repo](http
 
 First write correct digit-sheets with following syntax:
 
-`(low-music-key)` `middle-music-key` `[high-music-key]` `{double-high-music-key}`
+- `1, 2, 3, 4, 5, 6, 7` is `C, D, E, F, G, A, B`, and use `#` but never use `b`, for example: `#1` means `#C` or `bD` (However the timbre javascript uses `Db`).
 
-`<chord-note1 chord-note2 ...>`
+- `(bass)`: Keys in one octave below the middle C (C3 - B3) must be surrounded by `(` and `)`.
+
+- `middle`: Keys in one octave above the middle C (C4 - B4) have nothing except the digit.
+
+- `[treble]`： Keys in two octaves above the middle C (C5 - B5) must be surrounded by `[` and `]`.
+
+- `{double-treble}`: Keys in three octaves above the middle C (C6 - B6) must be surrounded by `{` and `}`.
+
+- `<chord-note1 chord-note2 ...>`: All notes for a chord must be surrounded with `<` and `>`.
 
 For example:
 
