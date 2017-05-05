@@ -41,3 +41,7 @@
 ## 1.3.3
 
 * Updated English of digit-sheets in README.md.
+
+## 1.3.4
+
+* Strange version problem of apm.
