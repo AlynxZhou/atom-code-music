@@ -45,3 +45,7 @@
 ## 1.3.4
 
 * Strange version problem of apm.
+
+## 2.3.3
+
+* Using standard JSON lib to deal with sheets.

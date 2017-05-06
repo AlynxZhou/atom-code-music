@@ -1,19 +1,19 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 "menu": [
-	{
-		"label": "Packages"
-		"submenu": [
-			"label": "Atom Code Music"
-			"submenu": [
-				{
-					"label": "Toggle"
-					"command": "atom-code-music:toggle"
-				},
-				{
-					"label": "Convert"
-					"command": "atom-code-music:convert"
-				}
-			]
-		]
-	}
+  {
+    "label": "Packages"
+    "submenu": [
+      "label": "Atom Code Music"
+      "submenu": [
+        {
+          "label": "Toggle"
+          "command": "atom-code-music:toggle"
+        },
+        {
+          "label": "Convert"
+          "command": "atom-code-music:convert"
+        }
+      ]
+    ]
+  }
 ]

@@ -1,0 +1,4514 @@
+[
+  [
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E6",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E6",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Ab4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Ab4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Ab4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Eb6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "F6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "F4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "C5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "F5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Eb6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "F4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Bb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Bb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Bb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "F5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Bb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "C4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Bb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "C6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D6",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Bb3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Eb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Eb4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db6",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "E4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.16666666666666666
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.16666666666666666
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.16666666666666666
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.16666666666666666
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.16666666666666666
+    },
+    {
+      "timbre": "",
+      "pitch": "Db4",
+      "loudness": 0.16666666666666666
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "G3",
+      "loudness": 0.3333333333333333
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.5
+    },
+    {
+      "timbre": "",
+      "pitch": "G4",
+      "loudness": 0.5
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "A5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "G5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "D3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "A3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "A4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "D4",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.25
+    },
+    {
+      "timbre": "",
+      "pitch": "E3",
+      "loudness": 0.25
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 0.2
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb3",
+      "loudness": 0.2
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B3",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "B4",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "Gb5",
+      "loudness": 1
+    }
+  ],
+  [
+    {
+      "timbre": "",
+      "pitch": "E5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Db5",
+      "loudness": 0.3333333333333333
+    },
+    {
+      "timbre": "",
+      "pitch": "Gb4",
+      "loudness": 0.3333333333333333
+    }
+  ]
+]
