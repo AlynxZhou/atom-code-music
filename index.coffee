@@ -1,17 +1,19 @@
 fs = require("fs")
 path = require("path")
-AtomCodeMusic = require(path.join(__dirname, "libs", "atom-code-music"))
+AtomCodeMusic = require(path.join(__dirname, "lib", "atom-code-music"))
 
 module.exports =
   config:
     timbre:
       type: "string"
       title: "Timbre"
-      description: "Timbre of the plugin when there is no timbre recorded in the sheet."
+      description: "Timbre of the plugin when there \
+      is no timbre recorded in the sheet."
       enum: [
         {value: "Piano", description: "Piano"},
         {value: "Marimba", description: "Marimba"},
-        {value: "Random", description: "Choose a timbre for a music sheet randomly."}
+        {value: "Random", \
+        description: "Choose a timbre for a music sheet randomly."}
       ]
       default: "Random"
     workMode:
@@ -19,8 +21,10 @@ module.exports =
       title: "Work Mode"
       description: "Work mode of the plugin."
       enum: [
-        {value: "Real Piano Mode", description: "Real piano mode just like playing a piano."},
-        {value: "Music Box Mode", description: "Play built-in music sheets like a music box."}
+        {value: "Real Piano Mode", \
+        description: "Real piano mode just like playing a piano."},
+        {value: "Music Box Mode", \
+        description: "Play built-in music sheets like a music box."}
       ]
       default: "Music Box Mode"
     customSheets:

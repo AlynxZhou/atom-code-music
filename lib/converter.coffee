@@ -14,17 +14,18 @@ MULTI_COMMENT = 2
 
 class Converter
   constructor: (@oldEditor, @newEditor) ->
-    @validArr = [' ', '\r', '\n', '\t', '|',
-                 '(', ')', '{', '}', '[', ']', '<', '>',
-                 '0', '1', '2', '3', '4', '5', '6', '7',
-                 '#1', '#2', '#3', '#4', '#5', '#6', '#7']
-    @keySeq = ['(1)', '(#1)', '(2)', '(#2)', '(3)', '(4)',
-              '(#4)', '(5)', '(#5)', '(6)', '(#6)', '(7)',
-              '1', '#1', '2', '#2', '3', '4', '#4', '5', '#5', '6', '#6', '7',
-              '[1]', '[#1]', '[2]', '[#2]', '[3]', '[4]', \
-              '[#4]', '[5]', '[#5]', '[6]', '[#6]', '[7]',
-              '{1}', '{#1}', '{2}', '{#2}', '{3}', '{4}', \
-              '{#4}', '{5}', '{#5}', '{6}', '{#6}', '{7}']
+    @validArr = [
+      ' ', '\r', '\n', '\t', '|', '(', ')', '{', '}', '[', ']', \
+      '<', '>', '0', '1', '2', '3', '4', '5', '6', '7', '#1', \
+      '#2', '#3', '#4', '#5', '#6', '#7'
+    ]
+    @keySeq = [
+      '(1)', '(#1)', '(2)', '(#2)', '(3)', '(4)', '(#4)', '(5)', '(#5)', \
+      '(6)', '(#6)', '(7)', '1', '#1', '2', '#2', '3', '4', '#4', '5', '#5', \
+      '6', '#6', '7', '[1]', '[#1]', '[2]', '[#2]', '[3]', '[4]', '[#4]', \
+      '[5]', '[#5]', '[6]', '[#6]', '[7]', '{1}', '{#1}', '{2}', '{#2}', \
+      '{3}', '{4}', '{#4}', '{5}', '{#5}', '{6}', '{#6}', '{7}'
+    ]
     @digits = ['1', '2', '3', '4', '5', '6', '7']
     @blankArray = ['\n', '\r', '\t', ' ']
     @digitsNotes = JSON.parse(
@@ -70,11 +71,10 @@ class Converter
           continue
       if @line.charAt(i) in @digits
         @chordArray.push(@bracketStatus + @line.charAt(i) + \
-                         @bracketObject[@bracketStatus])
+        @bracketObject[@bracketStatus])
       else if @line.charAt(i) is '#' and @line.charAt(i + 1) in @digits
         @chordArray.push(@bracketStatus + @line.charAt(i) + \
-                         @line.charAt(++i) + \
-                         @bracketObject[@bracketStatus])
+        @line.charAt(++i) + @bracketObject[@bracketStatus])
       else if @line.charAt(i) is ';' and @line.charAt(i + 1) is ';'
         @chordArray.push(@line.charAt(i) + @line.charAt(++i))
         @commentStatus = SINGLE_COMMENT
@@ -93,9 +93,9 @@ class Converter
         @chordStatus = false
       else
         throw new Error("Error: Invalid character `#{@line.charAt(i)}` \
-                         at Line #{@lineNum + 1}, Column #{i + 1}.")
+        at Line #{@lineNum + 1}, Column #{i + 1}.")
       if @chordArray.length > 0 and not @chordStatus and \
-         @commentStatus is NOT_COMMENT
+      @commentStatus is NOT_COMMENT
         @noteArray.push(@chordArray)
         @chordArray = []
       i++
@@ -118,12 +118,12 @@ class Converter
     while i < @noteArray.length
       if @keySeq.indexOf(@noteArray[i]) isnt -1
         if @keySeq.indexOf(@noteArray[i]) + moveStep \
-           in [0...@keySeq.length]
+        in [0...@keySeq.length]
           @noteArray[i] = @keySeq[@keySeq.indexOf(@noteArray[i]) + \
-                                       moveStep]
+          moveStep]
         else
           throw new Error("Error: Cannot move #{@noteArray[i]} \
-                           with #{moveStep} steps.")
+          with #{moveStep} steps.")
       i++
 
   checkBlank: (chordArray) =>
