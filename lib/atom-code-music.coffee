@@ -10,15 +10,17 @@ class AtomCodeMusic
   constructor: () ->
     @i = 0
     @base64Binary = require(path.join(__dirname, "base64binary"))
-    @keysNotes = JSON.parse(fs.readFileSync(path.join(__dirname, \
-    "keys-notes.json")))
+    @keysNotes = JSON.parse(fs.readFileSync(
+      path.join(__dirname, "keys-notes.json")
+    ))
     @subscriptions = new CompositeDisposable()
     @sheet = []
     @sheets= {}
     sheetsArray = fs.readdirSync(path.join(__dirname, "sheets"))
     for sheetName in sheetsArray
-      @sheets[sheetName] = JSON.parse(fs.readFileSync(path.join(__dirname, \
-      "sheets", sheetName)))
+      @sheets[sheetName] = JSON.parse(fs.readFileSync(
+        path.join(__dirname, "sheets", sheetName)
+      ))
     # Use two closure wrappers to save the status.
     # Because decodeAudioData() is an async method.
     @sources = []

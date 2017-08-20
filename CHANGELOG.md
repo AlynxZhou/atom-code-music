@@ -61,3 +61,7 @@
 ## 2.3.7
 
 * Bug fix: Unchanged directory name.
+
+## 2.3.9
+
+* Bug fix: An error in keys-notes.json.
