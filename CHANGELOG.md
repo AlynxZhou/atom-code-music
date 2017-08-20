@@ -49,3 +49,11 @@
 ## 2.3.3
 
 * Using standard JSON lib to deal with sheets.
+
+## 2.3.5
+
+* Fixed possible bug due to not using fat arrow.
+
+* Cleaned unnecessary files.
+
+* New conventer.

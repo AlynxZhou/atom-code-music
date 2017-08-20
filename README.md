@@ -51,7 +51,7 @@ For example:
 
 2. In digit-sheets only `#` is acceptable, no `b`, and never let a `#` control many digits, in other words, `(#1#2#5)` is okay but `#(125)` causes an error.
 
-3. Do not use cross-line brackets, you'd better to close and reopen a pair of brackets at line end/beginning to prevent strange error. (Here line is soft warp in Atom, not hard warp in file.)
+3. Do not use cross-line brackets, you'd better to close and reopen a pair of brackets at line end/beginning to prevent strange error. (Here line is soft warp in Atom, not hard warp in file.)(**MAYBE FIXED BY NEW CONVENTER IN V2.3.5.**)
 
 **Usage:**
 
