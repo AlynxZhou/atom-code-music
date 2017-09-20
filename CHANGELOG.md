@@ -65,3 +65,7 @@
 ## 2.3.9
 
 * Bug fix: An error in keys-notes.json.
+
+## 3.0.0
+
+* Bug fix: Error of using timbre before loading.
