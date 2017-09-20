@@ -1,48 +1,38 @@
 fs = require("fs")
 path = require("path")
 {CompositeDisposable} = require("atom")
+base64Binary = require(path.join(__dirname, "base64binary"))
 timbres =
   "Piano": require(path.join(__dirname, "timbres", "acoustic_grand_piano-ogg"))
   "Marimba": require(path.join(__dirname, "timbres", "marimba-ogg"))
 Converter = require(path.join(__dirname, "converter"))
+keysNotes = JSON.parse(fs.readFileSync(
+  path.join(__dirname, "keys-notes.json")
+))
+sheetsArray = fs.readdirSync(path.join(__dirname, "sheets"))
 
 class AtomCodeMusic
   constructor: () ->
+    @readyTimbres = 0
+    @timbresLength = 0
     @i = 0
-    @base64Binary = require(path.join(__dirname, "base64binary"))
-    @keysNotes = JSON.parse(fs.readFileSync(
-      path.join(__dirname, "keys-notes.json")
-    ))
     @subscriptions = new CompositeDisposable()
     @sheet = []
     @sheets= {}
-    sheetsArray = fs.readdirSync(path.join(__dirname, "sheets"))
-    for sheetName in sheetsArray
-      @sheets[sheetName] = JSON.parse(fs.readFileSync(
-        path.join(__dirname, "sheets", sheetName)
-      ))
-    # Use two closure wrappers to save the status.
-    # Because decodeAudioData() is an async method.
+    @loadSheets()
     @sources = []
     @context = new AudioContext()
     @gainNode = @context.createGain()
     @gainNode.connect(@context.destination)
     @gainNode.gain.value = 1
     @timbresAudio = {}
-    for timbre of timbres then do (timbre) =>
-      @timbresAudio[timbre] = []
-      for pitch of timbres[timbre] then do (pitch) =>
-        @context.decodeAudioData(@base64Binary.decodeArrayBuffer(
-          timbres[timbre][pitch].split("data:audio/ogg;base64,")[1]), \
-          (audioBuffer) =>
-            @timbresAudio[timbre][pitch] = audioBuffer
-        )
+    @loadTimbre()
     @switch = false
     @workMode = ""
     @timbre = ""
     @customSheets = ""
 
-  activate: =>
+  activate: () =>
     @subscriptions.add(atom.commands.add("atom-workspace", \
     "atom-code-music:toggle": @toggle))
     @subscriptions.add(atom.commands.add("atom-text-editor", \
@@ -59,6 +49,29 @@ class AtomCodeMusic
 
   deactivate: () =>
     @subscriptions.dispose()
+
+  loadSheets: () =>
+    for sheetName in sheetsArray
+      @sheets[sheetName] = JSON.parse(fs.readFileSync(
+        path.join(__dirname, "sheets", sheetName)
+      ))
+
+  loadTimbre: () =>
+    # Use two closure wrappers to save the status.
+    # Because decodeAudioData() is an async method.
+    for timbre of timbres then do (timbre) =>
+      @timbresAudio[timbre] = []
+      for pitch of timbres[timbre] then do (pitch) =>
+        @context.decodeAudioData(base64Binary.decodeArrayBuffer(
+          timbres[timbre][pitch].split("data:audio/ogg;base64,")[1]), \
+          (audioBuffer) =>
+            @timbresAudio[timbre][pitch] = audioBuffer
+            ++@readyTimbres
+        )
+    for timbre of timbres
+      for pitch of timbres[timbre]
+        ++@timbresLength
+
 
   changeMode: () =>
     @workMode = atom.config.get("atom-code-music.workMode")
@@ -89,6 +102,8 @@ class AtomCodeMusic
             continue
 
   noteOn: (event) =>
+    if @readyTimbres isnt @timbresLength
+      return
     # console.log(event.code)
     switch (@workMode)
       when "Music Box Mode"
@@ -112,11 +127,11 @@ class AtomCodeMusic
               @sources.push(source)
           @i++
       when "Real Piano Mode"
-        if event.code of @keysNotes
+        if event.code of keysNotes
           @gainNode.gain.value = 1
           source = @context.createBufferSource()
           source.connect(@gainNode)
-          source.buffer = @timbresAudio[@timbre][@keysNotes[event.code]]
+          source.buffer = @timbresAudio[@timbre][keysNotes[event.code]]
           source.start(0)
           @sources.push(source)
 
@@ -127,8 +142,9 @@ class AtomCodeMusic
           source?.stop(@context.currentTime + 0.5)
       when "Real Piano Mode"
         for source in @sources
-          if event.code of @keysNotes
+          if event.code of keysNotes
             source?.stop(@context.currentTime + 0.5)
+    @sources = []
 
   toggle: () =>
     if not @switch then @enable() else @disable()
