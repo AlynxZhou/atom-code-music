@@ -69,3 +69,7 @@
 ## 3.0.0
 
 * Bug fix: Error of using timbre before loading.
+
+## 3.0.1
+
+* Bug fix: Key off won't let all chord down.

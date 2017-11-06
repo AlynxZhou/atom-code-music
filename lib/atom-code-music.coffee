@@ -19,20 +19,18 @@ class AtomCodeMusic
     @subscriptions = new CompositeDisposable()
     @sheet = []
     @sheets= {}
-    @loadSheets()
-    @sources = []
-    @context = new AudioContext()
-    @gainNode = @context.createGain()
-    @gainNode.connect(@context.destination)
-    @gainNode.gain.value = 1
+    @audioSources = {}
     @timbresAudio = {}
-    @loadTimbre()
     @switch = false
     @workMode = ""
     @timbre = ""
     @customSheets = ""
 
   activate: () =>
+    @context = new AudioContext()
+    @gainNode = @context.createGain()
+    @gainNode.connect(@context.destination)
+    @gainNode.gain.value = 1
     @subscriptions.add(atom.commands.add("atom-workspace", \
     "atom-code-music:toggle": @toggle))
     @subscriptions.add(atom.commands.add("atom-text-editor", \
@@ -46,6 +44,8 @@ class AtomCodeMusic
     @changeTimbre))
     @subscriptions.add(atom.config.onDidChange("atom-code-music.customSheets", \
     @changeSheets))
+    @loadSheets()
+    @loadTimbre()
 
   deactivate: () =>
     @subscriptions.dispose()
@@ -79,6 +79,13 @@ class AtomCodeMusic
       @sheet = Object.keys(@sheets)[Math.floor(
         Math.random() * Object.keys(@sheets).length
       )]
+    for k in @audioSources
+      if @audioSources[k] instanceof Array
+        for source in @audioSources[k]
+          source.stop(@context.currentTime + 0.3)
+      else
+        @audioSources[k].stop(@context.currentTime + 0.3)
+      @audioSources = null
 
   changeTimbre: =>
     @timbre = atom.config.get("atom-code-music.timbre")
@@ -102,49 +109,58 @@ class AtomCodeMusic
             continue
 
   noteOn: (event) =>
-    if @readyTimbres isnt @timbresLength
+    if @readyTimbres isnt @timbresLength or \
+    event.repeat or @audioSources[event.code]? or \
+    event.code not of keysNotes
       return
     # console.log(event.code)
     switch (@workMode)
       when "Music Box Mode"
-        if event.code not in ["ControlLeft", "ControlRight", "AltLeft", \
+        if event.code in ["ControlLeft", "ControlRight", "AltLeft", \
         "AltRight", "ShiftLeft", "ShiftRight"]
-          if (not @sheets[@sheet]?) or @i >= @sheets[@sheet]?.length
-            @sheet = Object.keys(@sheets)[Math.floor(
-              Math.random() * Object.keys(@sheets).length
-            )]
-            @changeTimbre()
-            @i = 0
-          for note in @sheets[@sheet][@i]
-            if note["timbre"] isnt ""
-              @timbre = note["timbre"]
-            if note["pitch"] of @timbresAudio[@timbre]
-              @gainNode.gain.value = note["loudness"]
-              source = @context.createBufferSource()
-              source.connect(@gainNode)
-              source.buffer = @timbresAudio[@timbre][note["pitch"]]
-              source.start(0)
-              @sources.push(source)
-          @i++
+          return
+        if (not @sheets[@sheet]?) or @i >= @sheets[@sheet]?.length
+          @sheet = Object.keys(@sheets)[Math.floor(
+            Math.random() * Object.keys(@sheets).length
+          )]
+          @changeTimbre()
+          @i = 0
+        sources = []
+        for note in @sheets[@sheet][@i]
+          if note["timbre"] isnt ""
+            @timbre = note["timbre"]
+          if note["pitch"] of @timbresAudio[@timbre]
+            @gainNode.gain.value = note["loudness"]
+            source = @context.createBufferSource()
+            source.connect(@gainNode)
+            source.buffer = @timbresAudio[@timbre][note["pitch"]]
+            source.start(0)
+            sources.push(source)
+        @audioSources[event.code] = sources
+        @i++
       when "Real Piano Mode"
-        if event.code of keysNotes
-          @gainNode.gain.value = 1
+        if event.code not of @audioSources
+          @gainNode.gain.value = 5
           source = @context.createBufferSource()
           source.connect(@gainNode)
           source.buffer = @timbresAudio[@timbre][keysNotes[event.code]]
           source.start(0)
-          @sources.push(source)
+          @audioSources[event.code] = source
 
   noteOff: (event) =>
+    if @readyTimbres isnt @timbresLength or \
+    event.repeat or event.code not of keysNotes or \
+    not @audioSources[event.code]?
+      return
     switch (@workMode)
       when "Music Box Mode"
-        for source in @sources
-          source?.stop(@context.currentTime + 0.5)
+        sources = @audioSources[event.code]
+        for source in sources
+          source.stop(@context.currentTime + 0.3)
+        delete @audioSources[event.code]
       when "Real Piano Mode"
-        for source in @sources
-          if event.code of keysNotes
-            source?.stop(@context.currentTime + 0.5)
-    @sources = []
+        @audioSources[event.code].stop(@context.currentTime + 0.3)
+        delete @audioSources[event.code]
 
   toggle: () =>
     if not @switch then @enable() else @disable()
