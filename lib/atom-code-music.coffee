@@ -1,6 +1,6 @@
 fs = require("fs")
 path = require("path")
-{CompositeDisposable} = require("atom")
+CompositeDisposable = require("atom").CompositeDisposable
 base64Binary = require(path.join(__dirname, "base64binary"))
 timbres =
   "Piano": require(path.join(__dirname, "timbres", "acoustic_grand_piano-ogg"))
@@ -159,7 +159,7 @@ class AtomCodeMusic
           source.stop(@context.currentTime + 0.3)
         delete @audioSources[event.code]
       when "Real Piano Mode"
-        @audioSources[event.code].stop(@context.currentTime + 0.3)
+        @audioSources[event.code]?.stop(@context.currentTime + 0.3)
         delete @audioSources[event.code]
 
   toggle: () =>
@@ -179,7 +179,7 @@ class AtomCodeMusic
 
   convert: () ->
     oldEditor = atom.workspace.getActiveTextEditor()
-    (atom.workspace.open()).then(->
+    (atom.workspace.open()).then(() ->
       newEditor = atom.workspace.getActiveTextEditor()
       lineConverter = new Converter(oldEditor, newEditor)
       lineConverter.convert()
